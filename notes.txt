@@ -1,0 +1,11 @@
+- nodemon => detect change && restart server
+
+- npm install --save-dev babel-cli babel-preset-env
+in ```.babelrc```{
+  "presets": ["env"]
+}
+=> tranform es6 into Js
+
+- ```package.json```
+"dev": "nodemon index.js --exec babel-node"
+=> babel-node => import vs require
